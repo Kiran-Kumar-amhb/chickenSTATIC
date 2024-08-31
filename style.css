@@ -1,0 +1,49 @@
+body{
+    background-color: azure !important;
+}
+
+.shop-img{
+    border-radius: 4%;
+    width: 45%;
+    margin: 2rem 0.5rem 0.5rem 0.5rem;
+}
+
+
+
+.header-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    color: red !important;
+}
+
+#contact-info{
+    position: absolute;
+    right: 10rem;
+    font-weight: 700;
+}
+
+
+.prices-div-main{
+    margin: 1rem 0.5rem 0.5rem 1rem;
+}
+
+.prices-ul-main{
+    line-height: 2rem;
+}
+
+.map-div-main{
+    /* border: 1px solid black; */
+    border-radius: 5%;
+    margin: 2rem 0.5rem 0.5rem 3rem;
+    width: fit-content;
+}
+
+.map-map-main{
+    width: 550px;
+    height: 420px;
+    border-radius: 5%;
+}
