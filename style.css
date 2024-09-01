@@ -1,0 +1,57 @@
+body {
+    background-color: azure !important;
+  }
+  
+  .shop-img {
+    border-radius: 4%;
+    width: 49vw; /* Use viewport width for responsiveness */
+    margin: 2rem 0.5rem 0.5rem 0.5rem;
+  }
+  
+  .header-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  h1 {
+    color: red !important;
+    font-size: 1.3rem !important; /* Adjust font size for mobile */
+  }
+  
+  #contact-info {
+    position: absolute;
+    right: 5vw; /* Use viewport width for responsiveness */
+    font-weight: 650;
+    font-size: 0.5rem; /* Adjust font size or mobile */
+  }
+  
+  .prices-div-main {
+    margin: 1rem 0.5rem 0.5rem 1rem;
+  }
+
+  .prices-div-main ul {
+    font-size: 0.5rem;
+    line-height: 1.25rem;
+  }
+
+  h3{
+    font-size: 1rem !important;
+  }
+  
+  .prices-ul-main {
+    line-height: 2rem;
+  }
+  
+  .map-div-main {
+    /* border: 1px solid black; */
+    border-radius: 5%;
+    margin: 2rem 0.5rem 0.5rem 2rem;
+    max-width: 100%; /* Ensure map doesn't overflow */
+  }
+  
+  .map-map-main {
+    border-radius: 5%;
+    max-width: 60%; /* Ensure map doesn't overflow */
+    height: auto; /* Allow map to adjust height */
+  }
