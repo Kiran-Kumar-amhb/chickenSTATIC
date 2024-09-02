@@ -26,20 +26,31 @@ body {
     font-size: 0.5rem; /* Adjust font size or mobile */
   }
   
-  .prices-div-main {
-    margin: 1rem 0.5rem 0.5rem 1rem;
+  .chicken-prices-div-main, .egg-prices-div-main{
+    margin: 1rem 0.5rem 2.5rem 1rem;
   }
 
-  .prices-div-main ul {
+  .chicken-prices-div-main ul, .egg-prices-div-main ul {
+    margin: 1rem 0 1rem -1.45rem;
+    list-style: none;
     font-size: 0.5rem;
     line-height: 1.25rem;
   }
+
+  .fa-drumstick-bite{
+    color: brown;
+  }
+
+  .fa-egg{
+    color: burlywood;
+  }
+
 
   h3{
     font-size: 1rem !important;
   }
   
-  .prices-ul-main {
+  .chicken-prices-ul-main .egg-prices-ul-main {
     line-height: 2rem;
   }
   
