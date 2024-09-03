@@ -1,10 +1,12 @@
 body {
     background-color: azure !important;
+    font-family: Roboto, Arial, sans-serif !important; /* English */
+    font-family: Nirmala UI, Yuva, Candara, Segoe UI, Arial, sans-serif !important; /* Telugu */
   }
   
   .shop-img {
     border-radius: 4%;
-    width: 49vw; /* Use viewport width for responsiveness */
+    width: 47vw; /* Use viewport width for responsiveness */
     margin: 2rem 0.5rem 0.5rem 0.5rem;
   }
   
@@ -33,7 +35,7 @@ body {
   .chicken-prices-div-main ul, .egg-prices-div-main ul {
     margin: 1rem 0 1rem -1.45rem;
     list-style: none;
-    font-size: 0.5rem;
+    font-size: 0.6rem;
     line-height: 1.25rem;
   }
 
