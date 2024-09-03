@@ -7,7 +7,18 @@ body {
   .shop-img {
     border-radius: 4%;
     width: 47vw; /* Use viewport width for responsiveness */
-    margin: 2rem 0.5rem 0.5rem 0.5rem;
+  }
+
+  .eggs-img{
+    border-radius: 4%;
+    width: 47vw; /* Use viewport width for responsiveness */
+  }
+
+  .egg-img-div-main, .shop-img-div-main{
+    margin: 2rem 0.5rem 1rem 2rem;
+    padding: 2rem 0 0 0;
+    border-radius: 4%;
+    width: 47vw;
   }
   
   .header-main {
@@ -37,6 +48,12 @@ body {
     list-style: none;
     font-size: 0.6rem;
     line-height: 1.25rem;
+  }
+
+  .eggs-div-main, .chicken-div-main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
   }
 
   .fa-drumstick-bite{
