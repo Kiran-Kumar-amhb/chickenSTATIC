@@ -38,9 +38,15 @@ body {
     font-weight: 650;
     font-size: 0.5rem; /* Adjust font size or mobile */
   }
+
+  .date{
+    font-weight: 700;
+    margin: 0 2rem 2rem 2.5rem;
+    padding: 0 0 2rem 0;
+  }
   
   .chicken-prices-div-main, .egg-prices-div-main{
-    margin: 1rem 0.5rem 2.5rem 1rem;
+    margin: 1rem 0.5rem 0.5rem 1rem;
   }
 
   .chicken-prices-div-main ul, .egg-prices-div-main ul {
