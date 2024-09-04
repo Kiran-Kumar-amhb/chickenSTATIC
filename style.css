@@ -15,7 +15,7 @@ body {
   }
 
   .egg-img-div-main, .shop-img-div-main{
-    margin: 2rem 0.5rem 1rem 2rem;
+    margin: 2rem 0.5rem 0.5rem 2rem;
     padding: 2rem 0 0 0;
     border-radius: 4%;
     width: 47vw;
@@ -39,14 +39,25 @@ body {
     font-size: 0.5rem; /* Adjust font size or mobile */
   }
 
-  .date{
+  .fa-calendar-days, .fa-clock{
+    font-size: 1.3rem;
+    margin: 0 1rem 0 1rem;
+  }
+
+  .date-div-main{
+    margin: 0 1rem 2rem 1rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #date{
     font-weight: 700;
-    margin: 0 2rem 2rem 2.5rem;
-    padding: 0 0 2rem 0;
+    padding: 0.1rem;
   }
   
   .chicken-prices-div-main, .egg-prices-div-main{
-    margin: 1rem 0.5rem 0.5rem 1rem;
+    margin: 1rem 0.5rem 0.3rem 1rem;
   }
 
   .chicken-prices-div-main ul, .egg-prices-div-main ul {
